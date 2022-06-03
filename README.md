@@ -6,6 +6,4 @@
 ![alt text](./assets/images/secondImage.png)
 ![alt text](./assets/images/thirdImage.png)
 
-===============================================================
 FOR MORE PLEASE VISIT: https://bebo96.github.io/firstChallenge/
-===============================================================
