@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Apply styles to header */
 header {
     padding: 20px;
     background-color: #2a607c;
@@ -22,7 +22,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Navigation styles */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -47,7 +47,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* Hero jumbotron image size and positioning */
 .hero {
     height: 800px;
     width: 100%;
@@ -56,23 +56,40 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Float left for images in content section */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Float right for images in content section */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Apply content section  styles*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.content div{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content img {
+    max-height: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Apply benefits section styles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -92,31 +109,13 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
-
+/* Maintaining img positioning and size */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.content div{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content img {
-    max-height: 200px;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Apply footer styles */
 footer {
     padding: 30px;
     clear: both;
@@ -126,11 +125,10 @@ footer {
 footer h2 {
     font-size: 20px;
 }
-
+/* Font classes */
 .primary-font {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 .secondary-font{
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
